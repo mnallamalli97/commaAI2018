@@ -1,8 +1,8 @@
 # commaAI2018
-This is my solution and report for the 2018 internship at Comma AI. 
+This is my solution and report for the 2018 internship at Comma AI. My entire solution is in the answer.py file. 
+If you would like only my deliverable, it is in test.txt as requested by the challenge description. 
 
 ORIGINAL FRAME: 
-
 
 1. I am cropping image to remove black spots and crop out sky
 
@@ -41,3 +41,8 @@ Improvements & Future Extensions:
 1. I want to reduce the bias variance and prevent any overfitting by using a K-fold validation.
 2. I want to train the model using more frames because the model will be able to learn more from more optical flow frames
 3. I want to embedd this project solution into my ISEF winning project to track driver speed (rather than using GPS sensors).
+
+
+How to Run and test my solution:
+
+1. 
