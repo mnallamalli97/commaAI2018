@@ -42,6 +42,9 @@ Improvements & Future Extensions:
 2. I want to train the model using more frames because the model will be able to learn more from more optical flow frames
 3. I want to embedd this project solution into my ISEF winning project to track driver speed (rather than using GPS sensors).
 
+Important Dependencies: 
+
+1. tensorflow, keras 
 
 How to Run and test my solution:
 
