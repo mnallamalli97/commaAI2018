@@ -1,8 +1,10 @@
 # commaAI2018
-This is my solution and report for the 2018 internship at Comma AI. My entire solution is in the answer.py file. 
-If you would like only my deliverable, it is in test.txt as requested by the challenge description. 
+This is my solution and report for the 2018 internship at Comma AI. My entire solution is in the `answer.py` file. 
+If you would like only my deliverable, it is in `test.txt` as requested by the challenge description. 
 
-ORIGINAL FRAME: 
+INERT ORIGINAL FRAME
+
+## High level Design: 
 
 1. I am cropping image to remove black spots and crop out sky
 
@@ -25,8 +27,7 @@ ORIGINAL FRAME:
 6. Then I trained a model I made (I am calling it mehar_model()) by fitting these points in n dimensional grid
 	> The model I made is a Keras model running on top of tensor flow. It is a CNN.
   
---
-Results: 
+## Results: 
   > The model learned from the training data  has a MSE of <4.0 with a score of 0.95. My goal at the beginning of this project was to minimize the loss to be <1.0, and I am happy to say I was able to accomplish that. 
   
   INSERT FIRST HERE
@@ -36,16 +37,16 @@ Results:
   INSERT LAST HERE
   
 
-Improvements & Future Extensions:
+## Improvements & Future Extensions:
 
 1. I want to reduce the bias variance and prevent any overfitting by using a K-fold validation.
 2. I want to train the model using more frames because the model will be able to learn more from more optical flow frames
 3. I want to embedd this project solution into my ISEF winning project to track driver speed (rather than using GPS sensors).
 
-Important Dependencies: 
+## Important Dependencies: 
 
 1. tensorflow, keras 
 
-How to Run and test my solution:
+## How to Run and test my solution:
 
 1. 
