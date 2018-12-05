@@ -25,7 +25,7 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 5. Then I attached the speeds(Yaxis) given from the training video frames to the optical flow frames(Xaxis)
 
 6. Then I trained a model I made (I am calling it `mehar_model()`) by fitting these points in n dimensional grid
-	+The model I made is a Keras model running on top of tensor flow. It is a CNN.
+	+ The model I made is a Keras model running on top of tensor flow. It is a CNN.
   
 ## Results: 
 +The model learned from the training data  has a MSE of <4.0 with a score of 0.95. My goal at the beginning of this project was to minimize the loss to be <1.0, and I am happy to say I was able to accomplish that. 
