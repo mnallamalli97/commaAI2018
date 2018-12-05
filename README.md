@@ -2,7 +2,7 @@
 This is my solution and report for the 2018 internship at Comma AI. My entire solution is in the `answer.py` file. 
 If you would like only my deliverable, it is in `test.txt` as requested by the challenge description. 
 
-(https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/original.png)
+![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/original.png "given frame")
 
 ## High level Design: 
 
@@ -14,13 +14,13 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 	> adding brigthness to the 2nd channel layer of frame
 	> sharpening the image
   
-  (https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/cleaned.jpg)
+  ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/cleaned.jpg "cleaned frame")
 
 3. I run these steps as my preprocessing and data cleansing
 
 4. I made this clean data because I found a optical flow method that will calculate change in frame, so enhances pixels for more accurate pixel difference between frames. 
 
-  (https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/frame9459.jpg)
+  ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/frame9459.jpg "optical flow")
 
 5. Then I attached the speeds(Yaxis) given from the training video frames to the optical flow frames(Xaxis)
 
@@ -30,11 +30,11 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 ## Results: 
   > The model learned from the training data  has a MSE of <4.0 with a score of 0.95. My goal at the beginning of this project was to minimize the loss to be <1.0, and I am happy to say I was able to accomplish that. 
   
-  (https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/first.png)
+  ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/first.png "see loss after first epoch")
   
   As the number of epoches increased, the total loss decreased from 4,000 to 4.00. This is a 1000% improvement in the training data. 
   
-  (https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/last.png)
+  ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/last.png "see loss after 150th")
   
 
 ## Improvements & Future Extensions:
