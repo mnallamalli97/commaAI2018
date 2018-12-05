@@ -28,11 +28,11 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 	+ The model I made is a Keras model running on top of tensor flow. It is a CNN.
   
 ## Results: 
-+The model learned from the training data  has a MSE of <4.0 with a score of 0.95. My goal at the beginning of this project was to minimize the loss to be <1.0, and I am happy to say I was able to accomplish that. 
++ The model learned from the training data  has a MSE of <4.0 with a score of 0.95. My goal at the beginning of this project was to minimize the loss to be <1.0, and I am happy to say I was able to accomplish that. 
   
   ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/first.png "see loss after first epoch")
   
-+As the number of epoches increased, the total loss decreased from 4,000 to 4.00. This is a 1000% improvement in the training data. 
++ As the number of epoches increased, the total loss decreased from 4,000 to 4.00. This is a 1000% improvement in the training data. 
   
   ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/last.png "see loss after 150th")
   
@@ -51,7 +51,7 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 
 1. If you are just looking for the deliverable, it is under `test.txt`
 2. If you would like to save my model weights in an h5 file:
-	+run the command `python2 generate_model`
+	+ run the command `python2 generate_model`
 3. If you would like to generate the `test.txt`:
-	+run the command `python2 generate_deliverable`
+	+ run the command `python2 generate_deliverable`
 	Note: Once you generated the model weights, make sure to load in the correct name of the model generated in step 2.
