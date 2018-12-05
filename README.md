@@ -24,7 +24,7 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 
 5. Then I attached the speeds(Yaxis) given from the training video frames to the optical flow frames(Xaxis)
 
-6. Then I trained a model I made (I am calling it mehar_model()) by fitting these points in n dimensional grid
+6. Then I trained a model I made (I am calling it `mehar_model()`) by fitting these points in n dimensional grid
 	+The model I made is a Keras model running on top of tensor flow. It is a CNN.
   
 ## Results: 
@@ -41,7 +41,7 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 
 1. I want to reduce the bias variance and prevent any overfitting by using a K-fold validation.
 2. I want to train the model using more frames because the model will be able to learn more from more optical flow frames
-3. I want to embedd this project solution into my ISEF winning project to track driver speed (rather than using GPS sensors).
+3. I want to embedd this project solution into my **ISEF** winning project to track driver speed (rather than using GPS sensors).
 
 ## Important Dependencies: 
 
