@@ -4,6 +4,7 @@ This is my solution and report for the 2018 internship at Comma AI. My entire so
 If you would like only my deliverable, it is in `test.txt` as requested by the challenge description. 
 
 Here is what I was given:
+
 ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/original.png "given frame")
 
 ## High level Design: 
@@ -25,6 +26,7 @@ Here is what I was given:
 4. I made this clean data because I found a optical flow method that will calculate change in frame, so enhances pixels for more accurate pixel difference between frames. 
 
 Here is my difference in frames:
+
   ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/frame9459.jpg "optical flow")
 
 5. Then I attached the speeds(Yaxis) given from the training video frames to the optical flow frames(Xaxis)
@@ -42,6 +44,7 @@ Here is my difference in frames:
 + As the number of epoches increased, the total loss decreased from 4,000 to 4.00. This is a 1000% improvement in the training data. 
   
   Last epoch:
+  
   ![alt text](https://github.com/mnallamalli97/commaAI2018/blob/master/pics_for_readme/last.png "see loss after 150th")
   
 
