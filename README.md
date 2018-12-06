@@ -50,6 +50,7 @@ If you would like only my deliverable, it is in `test.txt` as requested by the c
 ## How to Run and test my solution:
 
 1. If you are just looking for the deliverable, it is under `test.txt`
+1.5. Before running the command in step 2, uncomment the code in the main and comment the existing main. You need to first generate the optical flow frames as those are the inputs to the training model. 
 2. If you would like to save my model weights in an h5 file:
 	+ run the command `python2 generate_model`
 3. If you would like to generate the `test.txt`:
