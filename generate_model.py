@@ -114,7 +114,7 @@ def optical_flow(image_current, image_next):
     # convert from cartesian to polar
     mag, ang = cv2.cartToPolar(flow[..., 0], flow[..., 1])
 
-    # hue corresponds to direction
+    # hue corresponds to directions
     hsv[:, :, 0] = ang * (180 / np.pi / 2)
 
     # value corresponds to magnitude
